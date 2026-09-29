@@ -85,4 +85,3 @@ text---
 - JavaScript (ES6+)
 - localStorage
 
----git add Day-02-JavaScript/README.md
