@@ -62,22 +62,6 @@ This project demonstrates:
 
 ---
 
-## Project Structure
-day-2-student-management/
-├── index.html
-├── style.css
-├── app.js
-└── README.md
-text---
-
-## How to Run
-
-1. Download or clone the project
-2. Open `index.html` in any web browser
-3. No installation or server is required
-
----
-
 ## Technologies Used
 
 - HTML5
@@ -85,3 +69,12 @@ text---
 - JavaScript (ES6+)
 - localStorage
 
+---
+
+## Project Structure
+
+```text
+student-management/
+├── index.html
+├── style.css
+└── app.js
