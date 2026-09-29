@@ -2,7 +2,7 @@
 
 ## Day 2 – MERN Stack Internship Training
 
-A simple Student Management System built using **HTML5**, **CSS3**, and **Vanilla JavaScript**.
+A simple Student Management System built using **HTML5**, **CSS3**, and **JavaScript**.
 
 This project demonstrates:
 - DOM Manipulation
