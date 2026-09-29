@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Management System</h1>
+
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <div class="card">
+                <h3>Total Students</h3>
+                <p id="totalStudents">0</p>
+            </div>
+            <div class="card">
+                <h3>Average Mark</h3>
+                <p id="avgMark">0</p>
+            </div>
+            <div class="card">
+                <h3>Highest Mark</h3>
+                <p id="highestMark">0</p>
+            </div>
+            <div class="card">
+                <h3>Lowest Mark</h3>
+                <p id="lowestMark">0</p>
+            </div>
+        </div>
+
+        <!-- Add Student Form -->
+        <div class="form-section">
+            <h2>Add Student</h2>
+            <form id="studentForm">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" id="name" placeholder="Enter student name">
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="Enter email">
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" id="age" placeholder="Enter age">
+                    <span class="error" id="ageError"></span>
+                </div>
+                <div class="form-group">
+                    <label>Department</label>
+                    <input type="text" id="department" placeholder="Enter department">
+                    <span class="error" id="departmentError"></span>
+                </div>
+                <div class="form-group">
+                    <label>Mark (0-100)</label>
+                    <input type="number" id="mark" placeholder="Enter mark">
+                    <span class="error" id="markError"></span>
+                </div>
+                <button type="submit" class="btn-add">Add Student</button>
+            </form>
+        </div>
+
+        <!-- Search -->
+        <div class="search-section">
+            <h2>Search Students</h2>
+            <input type="text" id="searchInput" placeholder="Search by Name, Email or Department">
+        </div>
+
+        <!-- Student List -->
+        <div class="list-section">
+            <h2>Student List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Department</th>
+                        <th>Mark</th>
+                        <th>Grade</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody">
+                    <!-- Students will be added here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
